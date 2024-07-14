@@ -4,11 +4,8 @@ const ShortUrl = require("./models/shortUrl");
 const app = express();
 
 mongoose.connect(
-  "mongodb+srv://admin:admin@cluster0.hyvnbm1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
+  "mongodb+srv://amankureshi78692:8OI8xF6dKBUL1yTv@cluster0.uix7hie.mongodb.net/urldb"
+  // "mongodb://localhost:27017/short-url"
 );
 
 app.set("view engine", "ejs");
